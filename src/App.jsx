@@ -1,16 +1,12 @@
 import { useState } from 'react'
 import logo from './logo.svg'
-import InputCard from './components/inputCard'
+import MainComponent from './components/mainComponent'
+
 
 function App() {
   return (
     <div className="app">
-      <InputCard />
-      <div className="flex">
-        <div className="box"></div>
-        <div className="box"></div>
-        <div className="box"></div>
-      </div>
+      <MainComponent />
     </div>
   )
 }

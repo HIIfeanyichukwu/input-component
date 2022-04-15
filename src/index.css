@@ -3,6 +3,7 @@
 :root {
   --red-label: #d32f2f;
   --blue-label: #2962ff;
+  --gray: #333333;
 }
 
 *,
@@ -12,18 +13,56 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.red-label {
+.icon {
+  position: absolute;
+  margin-block: 19px;
+  margin-inline-start: 12px;
+  width: 17.96px;
+  height: 17.96px;
+  display: inline-block;
+  vertical-align: middle;
+}
+p.light-title {
+  color: #828282;
+}
+label.red-label {
   color: var(--red-label);
 }
-.red-input {
+input.red-input {
   border-color: var(--red-label);
 }
-.blue-label {
+label.blue-label {
   color: var(--blue-label);
 }
-.blue-input {
+input.blue-input {
   border-color: var(--blue-label);
+}
+input.gray-input {
+  border-color: var(--gray);
+}
+input.pi-45 {
+  padding-inline-start: 45px;
+}
+input.sm {
+  padding-block: 10px;
+}
+.r0 {
+  right: 12px;
+}
+.fw-m {
+  font-weight: 500;
+}
+.fw-m::placeholder {
+  color: #333333;
+}
+.main-grid-item {
+  display: flex;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.main-grid-item + .main-grid-item {
+  margin-block-start: 42px;
 }
 
 .app {
@@ -36,20 +75,40 @@
   display: flex;
 }
 
+@media (max-width: 500px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+  }
+}
+@media (min-width: 500px) {
 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 43px;
+    column-gap: 92px;
+  }
+}
 
-
-.box {
-  width: 300px;
-  height: 200px;
-  background-color: blue;
+.text {
+  grid-row: 3 / 4;
+  grid-column: span 2;
 }
 
 
+/* .box {
+  width: 300px;
+  height: 200px;
+  background-color: blue;
+} */
 
-.flex {
+
+
+/* .flex {
   display: flex;
   gap: .5rem;
   flex-wrap: wrap;
   justify-content: start;
-}
+} */
