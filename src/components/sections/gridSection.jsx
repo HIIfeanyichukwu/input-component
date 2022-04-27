@@ -8,12 +8,12 @@ import Size from './size';
 const Grid = () => {
   return (
     <Section className='main-grid-item'>
-        <Section className='grid'>
-            <Interesting/>
-            <Icon />
-            <Text />
-            <Size />
-        </Section>
+      <Section className='grid'>
+        <Interesting/>
+        <Icon />
+        <Text />
+        <Size />
+      </Section>
     </Section>
   )
 }

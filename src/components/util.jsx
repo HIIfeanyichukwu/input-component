@@ -52,6 +52,21 @@ const InputContainer = styled.div`
     width: 200px;
     position: relative;
 `
+
+const InputMultiLine = styled.textarea`
+    width: 200px;
+    height: 150px;
+    padding-block-start: 18px;
+    padding-inline-start: 12px;
+    line-height: 20.7px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    resize: none;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+`
+
 const Span = styled.span`
     color: inherit;
     font-weight: 400;
@@ -63,12 +78,15 @@ const Span = styled.span`
 `
 const Main = styled.main`
     overflow-y: auto;
-    height: 100%
+    height: 100%;
+    padding-inline: 84px 90px;
+    padding-block: 30px 22px;
 `
 
 export {
     Input,
     InputDisabled,
+    InputMultiLine,
     Title,
     Label,
     InputContainer,
