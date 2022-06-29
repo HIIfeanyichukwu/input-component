@@ -68,5 +68,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@DoIfeanyichukwu](https://github.com/doIfeanyichukwu)
-- Twitter [@doifeanyichukwu](https://twitter.com/doifeanyichukwu)
+- GitHub [@HIIfeanyichukwu](https://github.com/HIIfeanyichukwu)
+- Twitter [@HIIfeanyichukwu](https://twitter.com/HIIfeanyichukwu)
