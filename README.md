@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/HIIfeanyichukwu/inpu-component">
+    <a href="https://github.com/HIIfeanyichukwu/input-component">
       Solution
     </a>
     <span> | </span>
